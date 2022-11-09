@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/newpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web</title>
+</head>
+<body>
+
+    <!-- <div id="btn" onclick="showMenu()"></div> -->
+
+    <main class="main-section">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">The Web</div>
+                <ul>
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="E"></a>About</li>
+                    <li><a href="#"></a>Contact</li>
+                    <li><a href="#"></a>Services</li>
+                    <li><a href="#"></a>Products</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- <section class="menu">
+            <li><a href="#"></a>Home</li>
+            <li><a href="E"></a>About</li>
+            <li><a href="#"></a>Contact</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Products</li>
+    </section> -->
+
+    <section>
+        <div class="showcase">
+            <h1>Welcome to the web.</h1>
+        </div>
+    </section>
+
+    <section class="boxes">
+        <div class="container">
+            <div>
+                <h2>Try using the web</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque iste in accusamus nostrum dolorum id beatae omnis, explicabo ducimus, voluptates voluptatum asperiores similique. Sed vitae incidunt soluta perferendis repellat!
+                </p>
+            </div>
+            <div>
+                <h2>With new features</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque iste in accusamus nostrum dolorum id beatae omnis, explicabo ducimus, voluptates voluptatum asperiores similique. Sed vitae incidunt soluta perferendis repellat!
+                </p>
+            </div>
+            <div>
+                <h2>Pricing Plans</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque iste in accusamus nostrum dolorum id beatae omnis, explicabo ducimus, voluptates voluptatum asperiores similique. Sed vitae incidunt soluta perferendis repellat!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>
+            Enjoy the Web &copy; 2022.
+        </h3>
+    </footer>
+</body>
+</html>
