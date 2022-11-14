@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins:wght@100;300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    background-color: #f1faee;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100%;
+    height: 100px;
+    color: white;
+    background-color: #e63946;
+    padding: 10px 10px;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.showcase{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)), url('https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.newsletter{
+    background-color: #457b9d;
+    height: 100px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+input[type = 'text']{
+    height: 40px;
+    border: none;
+}
+
+.btn{
+    background-color: #e63946;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.content-header{
+    margin: 20px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.content p{
+    margin-bottom: 20px;
+}
+
+
+.footer-container{
+    background-color: #457b9d;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    color: white;
+}
+
+@media (max-width:568px){
+    .navbar{
+        display: block;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .navbar ul{
+        display: none;
+        text-align: center;
+    }
+
+    .newsletter{
+        font-size: 15px;
+    }
+
+    input[type = 'text']{
+        display: none;
+    }
+
+    .content{
+        font-size: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .first-block{
+        margin-bottom: 30px;
+    }
+}
