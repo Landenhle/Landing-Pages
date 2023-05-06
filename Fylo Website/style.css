@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel&family=Comforter+Brush&family=Cormorant+Garamond:wght@300;500;700&family=Poppins:wght@100;300;500&family=Raleway&display=swap');
+
+
+:root{
+    --intro-color: hsl(218, 28%, 13%);
+    --main-background: hsl(227, 28%, 15%);
+    --footer-background: hsl(216, 53%, 9%);
+    --testimonials-background: hsl(219, 30%, 18%);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Raleway';
+    background-color: var(--main-background);
+    color: white;
+    font-size: 14px;
+}
+form{
+    margin-top: 30px ;
+}
+
+.section1, 
+.section2, 
+.section3,
+.section4 
+{
+    padding: 80px 0px;
+}
+
+.section5{
+    padding: 80px 0px 200px 0px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.links a {
+    color: white;
+    margin: 0px 15px;
+}
+
+.links a:hover{
+    font-weight: bolder;
+}
+
+.section1{
+    background-color: var(--intro-color);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section2{
+    text-align: center;
+}
+
+.section2 h3{
+    font-size: 30px;
+}
+
+.section2 p{
+    font-size: larger;
+}
+
+.section2 a{
+    margin: 20px 0px;
+    padding: 10px;
+    width: 20%;
+    display: inline-block;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 30px;
+    color: white;
+}
+
+.section2 a:hover{
+    background-color: hsl(176, 68%, 55%);
+}
+
+.section3 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    text-align: center;
+    padding: 10px;
+    align-self: center;
+    margin: 10px;
+    width: 550px;
+}
+
+.card h4{
+    font-size: 25px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content h4{
+    font-size: 40px;
+}
+
+.content p{
+    margin: 20px 0px;
+    line-height: 2;
+}
+
+.content a{
+    color:white ;
+}
+
+.content a:hover{
+    text-decoration: underline;
+}
+
+.section5{
+    position: relative;
+}
+
+.section5 .container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.comments{
+    background-color: hsl(219, 30%, 18%);
+    padding: 15px;
+}
+
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.profile h5{
+    font-size: 20px;
+}
+
+.profile p{
+    font-size: 14px;
+}
+
+.newsletter{
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+    background-color: var(--testimonials-background);
+    padding: 20px 60px; 
+    width: 60%;
+    box-shadow: 23px 30px 15px rgba(0, 0, 0, 0.3);
+}
+
+.newsletter h5{
+    font-size: 25px;
+    margin-bottom: 30px ;
+}
+
+.newsletter input[type = text]{
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    width: 60%;
+}
+
+.newsletter a{
+    padding: 10px;
+    display: inline-block;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 30px;
+    color: white;
+}
+
+.newsletter a:hover{
+    background-color: hsl(176, 68%, 55%);
+}
+
+footer{
+    background-color: var(--footer-background);
+    padding-top: 200px;;
+    
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.location, 
+.emails{
+    display: flex;   
+}
+
+.location img{
+    margin-right: 15px;
+}
+
+.contacts div{
+    padding: 10px 0px;
+}
+
+.details img{
+    width: 10px;
+    height: 10px;
+}
+
+.details a{
+    color: white;
+    font-size: larger;
+}
+
+.details a:hover{
+    text-decoration: underline 1px solid white;
+}
+
+@media (max-width: 560px){
+    .links{
+        font-size: 12px;
+    }
+
+    .section3 .container, 
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section4 .container .content h4{
+        font-size: 25px;
+    }
+   
+    .section4 h4{
+        font-size: 20px;
+    }
+
+    .section5 .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter a{
+        display: block;
+        width: 100%;
+    }
+
+    .newsletter input[type = text]{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .details{
+        display: block;
+        line-height: 2.5;
+    }
+
+    footer .socials{
+        text-align: center;
+        font-size: 25px;
+        padding: 10px 0px;
+    }
+
+    i:hover{
+        background-color: hsl(176, 68%, 64%);
+        border-radius: 10px;
+    }
+    
+}
