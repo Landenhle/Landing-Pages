@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel&family=Comforter+Brush&family=Cormorant+Garamond:wght@300;500;700&family=Poppins:wght@100;300;500&family=Raleway:wght@100;300;500;700&display=swap');
+
+:root{
+--VeryDarkBlue: hsl(243, 87%, 12%);
+--DesaturatedBlue: hsl(238, 22%, 44%);
+--BrightBlue: hsl(224, 93%, 58%);
+--ModerateCyan: hsl(170, 45%, 43%);
+--LightGrayishBlue: hsl(240, 75%, 98%);
+--LightGray: hsl(0, 0%, 75%);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body{
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.header-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    color: white;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.showcase2{
+    background-color: var(--LightGray);
+}
+
+.showcase-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.newsletter{
+    background-color: var(--DesaturatedBlue);
+}
+
+.newsletter a{
+    color: white;
+}
+
+.newsletter-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0px;  
+}
+
+.box1{
+    flex: 1;
+}
+
+.box2{
+    flex: 1;
+    margin-left: 100px;
+    max-width: 100%;
+}
+
+.box2 input{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+
+.showcase-container h1,
+.newsletter-container h1{
+    font-size: 2rem;
+}
+
+.showcase-container p{
+    margin: 15px 0px;
+}
+
+.showcase-container a{
+    color: white;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: var(--BrightBlue);
+}
+
+.card{
+    padding: 15px;
+    width: 20rem;
+    background-color: var(--BrightBlue);
+    border-radius: 20px;
+    box-shadow: 25px 10px 400px black;
+}
+
+.card img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+input{
+    padding: 10px;
+}
+
+.image img{
+    width: 45rem;
+}
+
+footer{
+    padding: 60px 0px; 
+    background-color: var(--VeryDarkBlue);
+}
+footer a {
+    display: block;
+    color: white;
+}
+
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
