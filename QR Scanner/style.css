@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel&family=Comforter+Brush&family=Cormorant+Garamond:wght@300;500;700&family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body{
+    background-image: linear-gradient(35deg, white, lightgrey 90% );
+    font-family: 'Poppins';
+    color: hsl(228, 45%, 44%);;
+}
+
+.card-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    text-align: center;
+    width: 280px;
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.card h1{
+    font-size: 1.3rem;
+}
+
+.card img{
+    width: 15rem;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
